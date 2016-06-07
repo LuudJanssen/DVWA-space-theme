@@ -1,0 +1,169 @@
+body,
+html,
+.space-container {
+  position: relative;
+  width: 100%;
+  min-height: 100%;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #34495E;
+}
+
+.space-container {
+  background-color: #2C3E50;
+}
+
+.navbar {
+  border-radius: 0;
+  background-color: #16A085;
+
+  a,
+  .navbar-brand {
+    color: white;
+
+    &:hover {
+      color: rgba(255,255,255,0.7);
+    }
+  }
+
+  .nav > li > a {
+    color: white;
+
+    &:hover,
+    &:focus {
+      color: rgba(255,255,255,0.7);
+    }
+  }
+
+  .nav > li.active > a {
+    color: white;
+    border-bottom: solid 4px white;
+
+    &:hover,
+    &:focus {
+      color: rgba(255,255,255,0.7);
+      border-bottom-color: rgba(255,255,255,0.7);
+    }
+  }
+
+  .nav li.dropdown.open > .dropdown-toggle {
+    color: rgba(255,255,255,0.7);
+  }
+
+  .nav li.dropdown {
+    a:hover {
+      opacity: 1;
+    }
+
+    & > .dropdown-toggle {
+      &:hover .caret,
+      &:focus .caret {
+        border-bottom-color: rgba(255, 255, 255, 0.7);
+        border-top-color: rgba(255, 255, 255, 0.7);
+      }
+
+      .caret {
+        border-bottom-color: white;
+        border-top-color: white;
+      }
+    }
+  }
+}
+
+main,
+footer .inner-container,
+.navbar .container-fluid {
+  position: relative;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+main {
+  min-height: 600px;
+  padding-bottom: 40px;
+}
+
+footer {
+  background-color: #34495E;
+
+  .inner-container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}
+
+.spaceship {
+  position: absolute;
+  right: -150px;
+  top: 20px;
+}
+
+.astronaut {
+  position: absolute;
+  left: -390px;
+  top: 260px;
+}
+
+.planet-1 {
+  position: absolute;
+  right: -280px;
+  top: 470px;
+}
+
+.planet-2 {
+  position: absolute;
+  right: -120px;
+  top: 380px;
+}
+
+.messages {
+  margin: 20px;
+
+  .message {
+    width: 100%;
+    background-color: #2980B9;
+    border-radius: 3px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+  }
+}
+
+.submenu {
+  margin-bottom: 40px
+}
+
+.markdown {
+  pre {
+    color: #c7254e;
+  }
+}
+
+h1, h2, h3, em {
+  font-family: 'Roboto Slab', serif;
+}
+
+h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 25px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+em {
+  font-weight: 900;
+  font-style: normal;
+}
