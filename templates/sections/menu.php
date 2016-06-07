@@ -4,7 +4,7 @@
       <?php if ($blockName == 'vulnerabilities' || $blockName == 'settings'): ?>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-             aria-expanded="false"><?= $blockName ?> <span class="caret"></span></a>
+             aria-expanded="false"><?= ucfirst($blockName) ?> <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <?php foreach ($menuBlock as $menuItem): ?>
               <li class="<?= $menuItem['selected'] ? 'active' : '' ?>">

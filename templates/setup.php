@@ -43,6 +43,4 @@
 		<input class="btn btn-block btn-lg btn-warning" name="create_db" type="submit" value="Create / Reset Database">
 		<?= $this->data['tokenField'] ?>
 	</form>
-	<br />
-	<hr />
 </div>
