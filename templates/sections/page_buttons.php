@@ -4,7 +4,7 @@
     $this->data['page']['help_button'] .
     '&security=' . $this->data['securityLevel'] ?>
 
-  <input type="button" value="View Help" class="popup_button"
+  <input type="button" value="View Help" class="btn btn-lg btn-info"
          onClick="javascript:popUp('<?= $popUpUrl ?>')">
 <?php endif ?>
 
@@ -14,7 +14,7 @@
     $this->data['page']['source_button'] .
     '&security=' . $this->data['securityLevel'] ?>
 
-  <input type="button" value="View Source" class="popup_button"
+  <input type="button" value="View Source" class="btn btn-lg btn-info"
          onClick="javascript:popUp('<?= $popUpUrl ?>')">
 <?php endif ?>
 
