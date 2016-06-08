@@ -22,7 +22,7 @@
       <div class="navbar-header">
         <a class="navbar-brand" href="/">
           <!--<img src="<?= $this->data['templateRoot'] ?>../default/images/logo.png" alt="Damn Vulnerable Web Application">-->
-          GOTO COMPETITION
+          GOTO - HACK ME
         </a>
       </div>
       <?= $this->insert('sections/menu', $this->data) ?>
