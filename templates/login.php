@@ -10,7 +10,7 @@
     <input class="submit btn btn-block btn-success" type="submit" value="Login" name="Login">
   </fieldset>
 
-  <small>Pssshhtt. The login credentials are <em>admin</em> - <em>password</em>.</small>
+  <small>Pssshhtt. You can login with any type of user - password combination.</small>
 
   <?= $this->data['tokenField'] ?>
 
