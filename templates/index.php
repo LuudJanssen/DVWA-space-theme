@@ -8,12 +8,12 @@
   <p>We have made a custom version
     of <?= $this->externalLink('http://www.dvwa.co.uk/', 'Damn Vulnerable Web Application') ?> to make hacking into a
     competition. If you have logged in you will find 10 different vulnerable pages to hack under 'Vulnerabilities'. We
-    have hidden a couple of BitCoins on this server. In for example the database or the file system. It's your job to
+    have hidden a couple of Bitcoin fractions on this server. In for example the database or the file system. It's your job to
     find them.</p>
 
   <h2>The Most Creative Hack</h2>
   <p>We like to be surprised by the creativity of hackers. Surprise us with a creative hack and we will reward you on
-    stage with some lovely BitCoins!</p>
+    stage with some lovely Bitcoin fractions!</p>
 
   <h2>More Training Resources</h2>
   <p>We use DVWA to make this competition happen. Big shout out to the people
