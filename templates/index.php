@@ -19,7 +19,7 @@
   <p>We use DVWA to make this competition happen. Big shout out to the people
     from <?= $this->externalLink('https://www.nccgroup.trust/uk/about-us/newsroom-and-events/news/2016/may/ncc-group-completes-2016-website-integration/', 'RandomStorm') ?>
     for making DVWA.</p>
-  <p>Every vulnerability lists a list of external links that give you more information the vulnerability.</p>
+  <p>Every vulnerability lists a list of external links that give you more information about the vulnerability.</p>
   <p>DVWA aims to cover the most commonly seen vulnerabilities found in today's web applications. However there are
     plenty of other issues with web applications. Should you wish to explore any additional attack vectors, or want more
     difficult challenges, you may wish to look into the following other projects:</p>
