@@ -1,43 +1,25 @@
 <?php $this->layout('sections/base', $this->data) ?>
 
 <div class="body_padded">
-  <h1>Welcome to Damn Vulnerable Web Application!</h1>
-  <p>Damn Vulnerable Web Application (DVWA) is a PHP/MySQL web application that is damn vulnerable. Its main goal is to
-    be an aid for security professionals to test their skills and tools in a legal environment, help web developers
-    better understand the processes of securing web applications and to aid both students & teachers to learn about web
-    application security in a controlled class room environment.</p>
-  <p>The aim of DVWA is to <em>practice some of the most common web vulnerability</em>, with <em>various difficultly
-      levels</em>, with a simple straightforward interface.</p>
+  <img class="center-block" width="500px" src="<?= $this->data['templateRoot'] ?>images/bitsensor-logo.png"
+       alt="BitSensor Logo - Dark Backgrounds">
 
-  <h2>General Instructions</h2>
-  <p>It is up to the user how they approach DVWA. Either by working through every module at a fixed level, or selecting
-    any module and working up to reach the highest level they can before moving onto the next one. There is not a fixed
-    object to complete a module; however users should feel that they have successfully exploited the system as best as
-    they possible could by using that particular vulnerability.</p>
-  <p>Please note, there are <em>both documented and undocumented vulnerability</em> with this software. This is
-    intentional. You are encouraged to try and discover as many issues as possible.</p>
-  <p>DVWA also includes a Web Application Firewall (WAF), PHPIDS, which can be enabled at any stage to further increase
-    the difficulty. This will demonstrate how adding another layer of security may block certain malicious actions.
-    Note, there are also various public methods at bypassing these protections (so this can be see an as extension for
-    more advance users)!</p>
-  <p>There is a help button at the bottom of each page, which allows you to view hints & tips for that vulnerability.
-    There are also additional links for further background reading, which relates to that security issue.</p>
+  <h1>Welcome to BitSensor's Hacking Competition!</h1>
+  <p>We have made a custom version
+    of <?= $this->externalLink('http://www.dvwa.co.uk/', 'Damn Vulnerable Web Application') ?> to make hacking into a
+    competition. If you have logged in you will find 10 different vulnerable pages to hack under 'Vulnerabilities'. We
+    have hidden a couple of BitCoins on this server. In for example the database or the file system. It's your job to
+    find them.</p>
 
-  <h2>WARNING!</h2>
-  <p>Damn Vulnerable Web Application is damn vulnerable! <em>Do not upload it to your hosting provider's public html
-      folder or any Internet facing servers</em>, as they will be compromised. It is recommend using a virtual machine
-    (such as <?= $this->externalLink('https://www.virtualbox.org/', 'VirtualBox') ?>
-    or <?= $this->externalLink('https://www.vmware.com/', 'VMware') ?>), which is set to NAT networking mode. Inside a
-    guest machine, you can downloading and
-    install <?= $this->externalLink('https://www.apachefriends.org/en/xampp.html', 'XAMPP') ?> for the web server and
-    database.</p>
-  <h3>Disclaimer</h3>
-  <p>We do not take responsibility for the way in which any one uses this application (DVWA). We have made the purposes
-    of the application clear and it should not be used maliciously. We have given warnings and taken measures to prevent
-    users from installing DVWA on to live web servers. If your web server is compromised via an installation of DVWA it
-    is not our responsibility it is the responsibility of the person/s who uploaded and installed it.</p>
+  <h2>The Most Creative Hack</h2>
+  <p>We like to be surprised by the creativity of hackers. Surprise us with a creative hack and we will reward you on
+    stage with some lovely BitCoins!</p>
 
   <h2>More Training Resources</h2>
+  <p>We use DVWA to make this competition happen. Big shout out to the people
+    from <?= $this->externalLink('https://www.nccgroup.trust/uk/about-us/newsroom-and-events/news/2016/may/ncc-group-completes-2016-website-integration/', 'RandomStorm') ?>
+    for making DVWA.</p>
+  <p>Every vulnerability lists a list of external links that give you more information the vulnerability.</p>
   <p>DVWA aims to cover the most commonly seen vulnerabilities found in today's web applications. However there are
     plenty of other issues with web applications. Should you wish to explore any additional attack vectors, or want more
     difficult challenges, you may wish to look into the following other projects:</p>
@@ -48,4 +30,6 @@
       as <?= $this->externalLink('http://www.irongeek.com/i.php?page=mutillidae/mutillidae-deliberately-vulnerable-php-owasp-top-10', 'Mutillidae') ?></li>
     <li><?= $this->externalLink('https://www.owasp.org/index.php/OWASP_Broken_Web_Applications_Project', 'OWASP Broken Web Applications Project') ?></li>
   </ul>
+
+  <h1>Good Luck!</h1>
 </div>
